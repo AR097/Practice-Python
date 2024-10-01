@@ -1,14 +1,10 @@
-# Estatísticas Básicas em Python
+# Calculo desvio padrão em Python
 
-Este projeto é um aplicativo em Python que calcula a média, mediana, moda e desvio padrão de uma lista de números fornecida pelo usuário.
+Este projeto é um aplicativo em Python que calcula o desvio padrão de uma lista de números fornecida pelo usuário.
 
 ## Funcionalidades
 
-- Cálculo da média dos números.
-- Cálculo da mediana dos números.
-- Cálculo da moda dos números.
 - Cálculo do desvio padrão dos números.
-- Tratamento de exceções para casos em que não há moda.
 
 ## Tecnologias Usadas
 
