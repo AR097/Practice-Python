@@ -19,7 +19,7 @@ Este projeto é um aplicativo em Python que permite calcular a média, mediana e
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/AR097/Calculo_media_moda_mediana.git
+git clone https://github.com/AR097/Practice-Python/tree/main/Calculo_media_moda_mediana.git
 ```
 2. Navegue até o diretório do projeto:
 
