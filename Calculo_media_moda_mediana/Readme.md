@@ -32,9 +32,3 @@ python estatisticas.py
 ```
 4. Digite uma lista de numeros separados por espaço.
 5. O aplicativo exibirá a média, mediana e moda dos números fornecidos.
-
-# Contribuições
-Contribuições são bem-vindas! Se você encontrar um erro ou tiver uma sugestão, sinta-se à vontade para abrir um issue ou enviar um pull request.
-
-#Licença
-Este projeto está licenciado sob a MIT License.
