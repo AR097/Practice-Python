@@ -2,6 +2,11 @@
 
 Este projeto é um aplicativo em Python que permite calcular a média, mediana e moda de uma lista de números fornecida pelo usuário.
 
+![image](https://github.com/user-attachments/assets/190c5764-453f-4fe0-a5e6-8016696d6fa4)
+
+![image](https://github.com/user-attachments/assets/8d9006b7-4493-4942-a916-c178149f541f)
+
+
 ## Funcionalidades
 
 - Cálculo da média dos números.
