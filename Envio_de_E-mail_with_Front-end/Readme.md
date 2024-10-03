@@ -1,6 +1,9 @@
 # Aplicação de Envio de E-mail com Anexo
 Este projeto é uma aplicação web simples desenvolvida com o framework Flask em Python. Ele permite que o usuário envie e-mails com um ou mais anexos através de uma interface web. O envio é feito utilizando o servidor SMTP do Gmail, sendo possível configurar remetente, destinatário, assunto, mensagem e anexar arquivos de diversos tipos.
 
+<img src="https://github.com/user-attachments/assets/f173c75e-54e4-4c15-82f3-35a0a2936379" width="auto" height="300">
+<img src="https://github.com/user-attachments/assets/7e5c31bf-c9fe-476a-bb7f-d5a481e3592f" width="auto" height="300">
+
 # Funcionalidades
 - Interface web para envio de e-mails.
 - Suporte para anexar arquivos (como PDF, CSV, DOCX, imagens, etc.).
