@@ -43,6 +43,12 @@ pip install -r requirements.txt
 ## Configuração do Gmail
 Crie uma senha de aplicativo para usar a sua conta de gmail.
 
+Crie na pasta principal do projeto o arquivo .env
+Nele voce devera incluir as seguintes informações: 
+```
+EMAIL_REMETENTE=seuemail@gmail.com
+EMAIL_SENHA=Chaveapp(mais-seguro)ouSenha
+```
 No arquivo .env adicione suas credenciais de e-mail no formato que conta no arquivo, (ATENÇÂO, Cuidado para nao compartilhar suas informação, Note que ao compartilhar meu projeto, retirei as informações pessoais e senciveis. *Nunca compartilhe o arquivo .env com suas informações*)
 
 Execute a aplicação:
