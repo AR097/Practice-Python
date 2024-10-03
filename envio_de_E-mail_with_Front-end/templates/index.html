@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Envio de E-mail com Anexo - Com Python</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Enviar E-mail com Anexo usando Python</h2>
+        <hr>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                {{ message }}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+        <form method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="remetente">E-mail Remetente:</label>
+                <input type="email" class="form-control" id="remetente" name="remetente" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha ou Chave de Aplicativo:</label>
+                <input type="password" class="form-control" id="senha" name="senha" required>
+            </div>
+            <div class="form-group">
+                <label for="destinatario">E-mail Destinatário:</label>
+                <input type="email" class="form-control" id="destinatario" name="destinatario" required>
+            </div>
+            <div class="form-group">
+                <label for="assunto">Assunto:</label>
+                <input type="text" class="form-control" id="assunto" name="assunto" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="anexo">Anexo:</label>
+                <input type="file" class="form-control-file" id="anexo" name="anexo" required>
+                <small class="form-text text-muted">Tipos de arquivos permitidos: xlsx, csv, pdf, docx, png, jpg, jpeg, gif.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar E-mail</button>
+        </form>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
