@@ -4,18 +4,18 @@ from enviar_email import enviar_email
 from werkzeug.utils import secure_filename
 from dotenv import load_dotenv
 
-# Carregar variáveis de ambiente do arquivo .env
+# Carrega as variáveis de ambiente do arquivo .env
 load_dotenv()
 
 app = Flask(__name__)
-app.secret_key = 'sua_chave_secreta'  # Necessário para utilizar o flash
+app.secret_key = 'sua_chave_secreta'
 
 # Configurações para uploads
 UPLOAD_FOLDER = 'uploads/'
 ALLOWED_EXTENSIONS = {'xlsx', 'csv', 'pdf', 'docx', 'png', 'jpg', 'jpeg', 'gif'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Função para verificar extensões permitidas
+# Verifica as extensões permitidas
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
